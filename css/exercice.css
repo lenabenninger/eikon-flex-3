@@ -17,6 +17,20 @@ flex-direction: row;
 
 
 /* 3. exercice-order-2 */
+.exercice-order-2 .container {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.element-blue {
+  order: 0;
+ }
+
+.element-yellow {
+  order: -2;
+}
+
 
 
 /* 4. exercice-order-3 */
