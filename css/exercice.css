@@ -104,6 +104,17 @@ flex-direction: row;
 
 
 /* 7. exercice-all-in-1 */
+.exercice-all-in-1 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.exercice-all-in-1 .element-blue {
+  order: -1;
+  align-self: flex-start;
+}
 
 
 /* 8. exercice-all-in-2 */
