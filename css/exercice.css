@@ -11,7 +11,7 @@ display: flex;
 flex-direction: row;
 }
 
-.element-blue {
+.exercice-order-1 .element-blue {
   order: 1;
 }
 
@@ -21,10 +21,6 @@ flex-direction: row;
   display: flex;
   flex-direction: column;
 }
-
-.exercice-order-2 .element-blue {
-  order: 0;
- }
 
 .exercice-order-2 .element-yellow {
   order: -2;
@@ -92,6 +88,19 @@ flex-direction: row;
 }
 
 /* 6. exercice-align-self-2*/
+.exercice-align-self-2 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exercice-align-self-2 .element-blue {
+  align-self: flex-start;
+}
+
+.exercice-align-self-2 .element-yellow {
+  align-self: flex-end;
+}
 
 
 /* 7. exercice-all-in-1 */
