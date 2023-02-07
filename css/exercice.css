@@ -18,22 +18,45 @@ flex-direction: row;
 
 /* 3. exercice-order-2 */
 .exercice-order-2 .container {
-  background-color: blue;
   display: flex;
   flex-direction: column;
 }
 
-.element-blue {
+.exercice-order-2 .element-blue {
   order: 0;
  }
 
-.element-yellow {
+.exercice-order-2 .element-yellow {
   order: -2;
 }
 
 
 
 /* 4. exercice-order-3 */
+.exercice-order-3 .container {
+  display: flex;
+  flex-direction: row;
+}
+
+.exercice-order-3 .element-blue {
+  order: -3;
+}
+
+.exercice-order-3 .element-red {
+  order: -2;
+}
+
+.exercice-order-3 .element-gray {
+  order: -1;
+}
+
+.exercice-order-3 .element-yellow {
+  order: 1;
+}
+
+.exercice-order-3 .element-green {
+  order: 2;
+}
 
 
 /* 5. exercice-align-self-1*/
